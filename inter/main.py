@@ -9,7 +9,7 @@ def Main():
     total_paginas = text.Total_page()
     num_page = 1
     extract = {}
-    while i <= total_paginas:
+    while i <= total_paginas -1:
         Template_Inter = {
             "Titulo": titulo.Titulo(i),
             "Corretora": titulo.Corretora(i),
